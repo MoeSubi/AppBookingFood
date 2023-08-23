@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LoginDetailAfterLogin">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/dlMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tbMain"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:title=" ">
+
+            <ImageView
+                android:id="@+id/ivMain"
+                android:layout_width="90dp"
+                android:layout_height="55dp"
+                android:layout_gravity="end"
+                android:src="@drawable/kfc" />
+            <ImageView
+                android:id="@+id/ivLogoutt"
+                android:layout_width="55dp"
+                android:layout_height="45dp"
+
+                android:src="@drawable/ic_logout" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <LinearLayout
+            android:background="@color/orange1"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="88dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/Hello"
+                android:textSize="35dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtNameAfter"
+                android:layout_width="262dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+
+                android:textSize="27dp">
+
+            </TextView>
+        </LinearLayout>
+        <TextView
+            android:text="Account Detail"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="81dp"
+                android:layout_height="36dp"
+
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="19dp"
+                android:text="@string/Fullname"
+                android:textSize="12dp">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/txtFullNameAfter"
+                android:layout_width="287dp"
+                android:layout_height="53dp"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:textSize="20dp">
+
+            </EditText>
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="19dp"
+                android:text="@string/PhoneNumber"
+                android:textSize="12dp">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/txtPhoneNumberAfter"
+                android:layout_width="286dp"
+                android:layout_height="53dp"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:textSize="20dp">
+
+            </EditText>
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="19dp"
+                android:text="@string/Email"
+                android:textSize="12dp">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/txtEmailAfter"
+                android:layout_width="287dp"
+                android:layout_height="53dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:textSize="20dp">
+
+            </EditText>
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="86dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="19dp"
+                android:text="@string/Address"
+                android:textSize="12dp">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/txtAddressAfter"
+                android:layout_width="282dp"
+                android:layout_height="53dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:textSize="20dp">
+
+            </EditText>
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnEditU"
+            android:layout_width="100dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="32dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/pinkk"
+            android:text="Update "
+            android:textAllCaps="false"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AppBookingFood</string>
+    <string name="dangnhap_text"><u>Login</u></string>
+    <string name="dangki_text"><u>Register</u></string>
+    <string name="AddFoodText"><b>Add Food</b></string>
+    <string name="AddUser"><b>Add User</b></string>
+    <string name="Udetail"><b>User Detail</b></string>
+    <string name="Hello"><b>Hello:</b></string>
+    <string name="Fullname"><i>Full name:</i></string>
+    <string name="PhoneNumber"><i>Phone Number:</i></string>
+    <string name="Email"><i>Email:</i></string>
+    <string name="Address"><i>Address:</i></string>
+</resources>
